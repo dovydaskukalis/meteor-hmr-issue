@@ -1,0 +1,1 @@
+This is based off a clean `meteor create react` app with added `imports/ui/Failing.jsx` component which imports the `imports/ui/utils/global.js` file which causes the crash in client with the error `Uncaught TypeError: global.___INIT_METEOR_FAST_REFRESH is not a function`.
